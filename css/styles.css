@@ -234,12 +234,16 @@ h1{
 }
 @media (max-width: 600px){
     #pricing{
-        padding: 10rem 5rem;
+        padding: 10rem 3rem;
     }
     .feature-col{
         padding: 12% 0;
     }
     #features{
         padding: 100px 50px;
+    }
+    .press-image{
+        width: 20%;
+        margin: 20px 30px 40px;
     }
 }
