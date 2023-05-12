@@ -70,7 +70,7 @@ h1{
     color: #8f8f8f;
 }
 .feature-col{
-    padding: 40px 60px;
+    padding: 3% 5%;
 }
 
 /* Testimonials */
@@ -191,6 +191,11 @@ h1{
         font-size: 3rem;
     }
 }
+@media (max-width: 900px){
+    .feature-col{
+        padding: 7% 5%;
+    }
+}
 @media (max-width: 750px){
     .carousel-item{
         padding: 100px 100px 100px;
@@ -230,5 +235,11 @@ h1{
 @media (max-width: 600px){
     #pricing{
         padding: 10rem 5rem;
+    }
+    .feature-col{
+        padding: 12% 0;
+    }
+    #features{
+        padding: 100px 50px;
     }
 }
